@@ -1,0 +1,118 @@
+@font-face{
+  font-family: avenir-regular;
+  src: url('./assets/fonts//avenir-font/AvenirLTStd-Book.otf');
+}
+@font-face{
+  font-family: avenir-medium;
+  src: url('./assets/fonts//avenir-font/AvenirLTStd-Medium.otf');
+}
+@font-face{
+  font-family: avenir-bold;
+  src: url('./assets/fonts//avenir-font/AvenirLTStd-Black.otf');
+}
+
+body {
+  font-family: avenir-regular;
+  font-size: 12px;
+}
+
+@media print {
+  body {
+    margin: 1cm;
+    margin-bottom: 0;
+  }
+
+  .App {
+    /* margin-top: 1.0cm; */
+  }
+}
+
+@media screen {
+  .App {
+    margin-top: 24px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.my-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Experience .role {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 4;
+  font-size: 1rem;
+  display: inline;
+}
+
+.Experience .company {
+  margin: 0;
+  /* font-weight: bold; */
+  margin-bottom: 4px;
+  font-size: 1rem;
+  display: inline;
+}
+
+.Education .role {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 8;
+  font-size: 1rem;
+}
+
+.Education .company {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 4px;
+  /* font-size: 1rem; */
+}
+
+.duration-location {
+  margin-bottom: 4px;
+}
+
+.material-icons {
+  font-size: 1rem;
+}
+
+.Experience {
+  margin-bottom: 16px;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.title {
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+ .subtitle {
+   font-size: 10px;
+   font-weight: bold;
+   margin-bottom: 6px;
+   margin-top: 12px;
+ }
+
+ul {
+  margin-top: 8px;
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+  line-height: 16px;
+}
